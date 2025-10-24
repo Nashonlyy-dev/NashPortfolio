@@ -7,7 +7,8 @@ export default function Puppy(props) {
   useFrame(()=> {
     if (ref.current) ref.current.rotation.y += 0.001
   })
-  const { scene } = useGLTF('/assets/scene.glb')
+  const { scene } = useGLTF('public/scene.glb')
   return <primitive ref={ref} object={scene} scale={1.6} {...props} />
 }
+
 
