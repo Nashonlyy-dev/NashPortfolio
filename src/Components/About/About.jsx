@@ -22,7 +22,7 @@ const About = () => {
         {/* Right Main Image */}
         <div className="absolute  top-5 right-[35vw] w-40 h-40 flex items-center justify-center z-70">
             <img
-              src="src/assets/image.png"
+              src="https://i.ibb.co/v46DDnBq/image.png"
               alt="badge"
               className="w-full h-full rounded-full border-2 border-blue-400"
             />
@@ -58,7 +58,7 @@ const About = () => {
         <div className="relative w-1/2 rounded-[5vw] overflow-hidden">
           <img
             className="w-[40vw] h-[90%] object-cover mr-1 hover:scale-110 transition-all rounded-[5vw]"
-            src="src/assets/Gemini_Generated_Image_aoqkegaoqkegaoqk.png"
+            src="https://i.ibb.co/5WWD0RNx/Gemini-Generated-Image-aoqkegaoqkegaoqk-min.png"
             alt=""
           />
 
@@ -71,3 +71,4 @@ const About = () => {
 };
 
 export default About;
+
