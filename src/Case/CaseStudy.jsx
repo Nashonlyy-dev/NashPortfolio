@@ -41,6 +41,29 @@ Building FoodieHub taught me how to design clean APIs, connect frontend and back
 `,
   },
   {
+    name: "Apple-Pencil-3D",
+    title: "Apple Pencil 3D Experience",
+    mainImg: applePencilImg,
+    screenshots: "",
+    github: "https://github.com/Nashonlyy-dev/apple-pencil-3d",
+    live: "https://apple-pencil-3d.vercel.app/",
+    description: `
+🍎 Apple Pencil 3D is a premium landing page experience built to push the limits of web-based 3D.
+
+Using React Three Fiber and GSAP, I created a high-fidelity 3D model interaction that responds to the user's scroll. The project focuses on smooth transitions, realistic materials, and immersive storytelling.
+
+Key Highlights:
+• Interactive 3D Model with real-time reflections
+• Scroll-triggered animations using GSAP ScrollTrigger
+• Silk-smooth UI transitions with Framer Motion
+• Fully responsive 3D Canvas
+• High-performance rendering for 60FPS experience
+
+Tech Used:
+React.js, Three.js, React Three Fiber, GSAP, Framer Motion, and Tailwind CSS.
+`,
+  },
+  {
     name: "Ochi",
     title: "Ochi App Case Study",
     mainImg: ochiImg,
@@ -84,3 +107,4 @@ Built to explore modern UI with interactivity and immersive storytelling.
 export function getCaseStudyByName(name) {
   return caseStudies.find((p) => p.name.toLowerCase() === name.toLowerCase());
 }
+
