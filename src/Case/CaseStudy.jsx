@@ -1,6 +1,7 @@
 import foodShortImg from "../assets/Gemini_Generated_Image_85bl3j85bl3j85bl.png";
 import ochiImg from "../assets/Screenshot 2025-10-15 104702.png";
 import k72Img from "../assets/Screenshot 2025-10-22 100258.png";
+import reviewFlowImg from "https://i.ibb.co/VWc2Vd7D/rewiew.png"; // Update this path to your actual image
 
 // The new Apple Pencil Image from the link you provided
 const applePencilImg = "https://i.ibb.co/b5TyDxm1/apple-pencil.png";
@@ -27,6 +28,29 @@ Key Highlights:
 
 Tech Used:
 React.js, Three.js, React Three Fiber, GSAP, Framer Motion, and Tailwind CSS.
+`,
+  },
+  {
+    name: "ReviewFlow",
+    title: "ReviewFlow: Self-Healing Review Engine",
+    mainImg: reviewFlowImg, // Use your imported image here
+    screenshots: "",
+    github: "https://github.com/Nashonlyy-dev/vault3d", // Assuming it's in your vault3d repo
+    live: "https://review-flow-phi.vercel.app/",
+    description: `
+🛡️ ReviewFlow is a production-grade SaaS that transforms messy Google Reviews into premium, AI-curated social proof.
+
+Built to bypass regional banking restrictions and strict serverless timeouts, I engineered a "Fortress" architecture. It features a custom borderless crypto payment bridge and a resilient background scraping engine that auto-retries on network failures, ensuring reliable data syncs anywhere in the world.
+
+Key Highlights:
+• Self-Healing Background Sync using Inngest to bypass 10s serverless timeouts
+• Borderless Crypto Payments via custom NOWPayments (USDT) + Stripe integration
+• AI Review Curation to automatically extract and highlight the best customer quotes
+• Hardened Security with timing-safe webhook signatures and fail-closed logic
+• Automated Scraper Pipelines utilizing Apify and Supabase PostgreSQL
+
+Tech Used:
+Next.js (App Router), Supabase, Inngest, Apify, NOWPayments API, Stripe, and Tailwind CSS.
 `,
   },
   {
